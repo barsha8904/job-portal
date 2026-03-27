@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Replace with production URL when deploying
+  baseURL: 'https://job-portal-b5b2.onrender.com/api',
 });
 
 // Add a request interceptor to include the JWT token
